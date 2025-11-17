@@ -267,4 +267,4 @@ else:
                     st.error("⚠️ File template tidak ditemukan. Pastikan semua PDF ada di folder yang sama dengan app.py")
 
 # --- Footer ---
-st.markdown("<hr><p style='text-align:center;color:#94a3b8;'>Dibuat oleh poesmanoye v3</p>", unsafe_allow_html=True)
+st.markdown("<hr><p style='text-align:center;color:#94a3b8;'>Dibuat oleh anom_ v3</p>", unsafe_allow_html=True)
