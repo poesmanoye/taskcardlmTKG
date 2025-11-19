@@ -8,12 +8,12 @@ import base64
 # --- Google Analytics ---
 GA_SCRIPT = """
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-698CWQL8H1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFM9JFK212"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-698CWQL8H1');
+  gtag('config', 'G-KFM9JFK212');
 </script>
 """
 
@@ -360,6 +360,7 @@ else:
 
 # Footer
 st.markdown("<hr><p style='text-align:center;color:#94a3b8;'>Dibuat oleh nomnom_</p>", unsafe_allow_html=True)
+
 
 
 
