@@ -6,7 +6,6 @@ from io import BytesIO
 import base64
 
 # --- Google Analytics ---
-GA_SCRIPT = """
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-698CWQL8H1"></script>
 <script>
@@ -361,6 +360,7 @@ else:
 
 # Footer
 st.markdown("<hr><p style='text-align:center;color:#94a3b8;'>Dibuat oleh nomnom_</p>", unsafe_allow_html=True)
+
 
 
 
