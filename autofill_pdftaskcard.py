@@ -65,7 +65,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # header
-st.markdown("""
+st.markdown(f"""
     <div class="header-container" style="text-align:center; margin-top:-25px;">
         <img src="data:image/png;base64,{logo_base64}" width="140">
         <h1>TASKCARD LINE MAINTENANCE </h1>
@@ -361,6 +361,7 @@ else:
 
 # Footer
 st.markdown("<hr><p style='text-align:center;color:#94a3b8;'>Dibuat oleh nomnom_</p>", unsafe_allow_html=True)
+
 
 
 
