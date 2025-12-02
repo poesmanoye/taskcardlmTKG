@@ -113,20 +113,20 @@ else:
 
         col1, col2 = st.columns(2)
         with col1:
-            work_order = st.text_input("WORK ORDER NO.")
-            ac_reg = st.text_input("A/C REG.")
-            ac_msn = st.text_input("A/C MSN.")
+            work_order = st.text_input("WORK ORDER NO.").upper()
+            ac_reg = st.text_input("A/C REG.").upper()
+            ac_msn = st.text_input("A/C MSN.").upper()
             ac_type = st.selectbox(
                 "A/C TYPE",
                 ["B737-800 NG", "B737-900 ER", "A320", "ATR72-500", "ATR72-600"]
             )
         with col2:
-            ac_eff = st.text_input("A/C Effectivity")
+            ac_eff = st.text_input("A/C Effectivity").upper()
             operator = st.selectbox(
                 "OPERATOR",
                 ["LION AIR", "BATIK AIR", "SUPER AIR JET", "WINGS AIR"]
             )
-            place = st.text_input("PLACE")
+            place = st.text_input("PLACE").upper()
 
         submitted = st.form_submit_button("Generate TaskCard")
 
